@@ -9,9 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, Swift")
+        Text(printString)
             .padding()
     }
+    
+    var printString: String {
+        "Hello, Swift and Expedia People"
+    }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
