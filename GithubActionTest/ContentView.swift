@@ -14,7 +14,7 @@ struct ContentView: View {
     }
     
     var printString: String {
-        "Hello, Swift"
+        "Hello, Swift and Expedia"
     }
     
 }
